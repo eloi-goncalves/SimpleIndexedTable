@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8767FD946609F1598DB2CFDDC7FA76A0577BFC50",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22769DD3C04EA68EDBADFC17A17F713AD43853EB" : 9223372036854775807,
+    "8767FD946609F1598DB2CFDDC7FA76A0577BFC50" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E8112F07-F295-42A6-96B8-75D139DA2BB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22769DD3C04EA68EDBADFC17A17F713AD43853EB" : "..\/tasy-mobile",
+    "8767FD946609F1598DB2CFDDC7FA76A0577BFC50" : "SimpleIndexedTable\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SimpleIndexedTable",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SimpleIndexedTable.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/philips-emr\/tasy-mobile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22769DD3C04EA68EDBADFC17A17F713AD43853EB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eloi-goncalves\/SimpleIndexedTable.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8767FD946609F1598DB2CFDDC7FA76A0577BFC50"
+    }
+  ]
+}
