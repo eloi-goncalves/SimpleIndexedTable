@@ -12,6 +12,9 @@
 		595A6B511E74A39F00777524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595A6B4F1E74A39F00777524 /* Main.storyboard */; };
 		595A6B531E74A39F00777524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595A6B521E74A39F00777524 /* Assets.xcassets */; };
 		595A6B561E74A39F00777524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595A6B541E74A39F00777524 /* LaunchScreen.storyboard */; };
+		595A6B621E74A61E00777524 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 595A6B611E74A61E00777524 /* countries.json */; };
+		595A6B651E74B06C00777524 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A6B631E74B06C00777524 /* Countries.swift */; };
+		595A6B661E74B06C00777524 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A6B641E74B06C00777524 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		595A6B521E74A39F00777524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595A6B551E74A39F00777524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		595A6B571E74A39F00777524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595A6B611E74A61E00777524 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = countries.json; path = "../../../tasy-mobile/patient-app-ios/Patient_iOS/Files/countries.json"; sourceTree = "<group>"; };
+		595A6B631E74B06C00777524 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		595A6B641E74B06C00777524 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		595A6B4A1E74A39F00777524 /* SimpleIndexedTable */ = {
 			isa = PBXGroup;
 			children = (
+				595A6B611E74A61E00777524 /* countries.json */,
 				595A6B4B1E74A39F00777524 /* AppDelegate.swift */,
 				595A6B4D1E74A39F00777524 /* ViewController.swift */,
 				595A6B4F1E74A39F00777524 /* Main.storyboard */,
+				595A6B631E74B06C00777524 /* Countries.swift */,
+				595A6B641E74B06C00777524 /* Country.swift */,
 				595A6B521E74A39F00777524 /* Assets.xcassets */,
 				595A6B541E74A39F00777524 /* LaunchScreen.storyboard */,
 				595A6B571E74A39F00777524 /* Info.plist */,
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					595A6B471E74A39F00777524 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HUU6BYRNCF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +135,7 @@
 			files = (
 				595A6B561E74A39F00777524 /* LaunchScreen.storyboard in Resources */,
 				595A6B531E74A39F00777524 /* Assets.xcassets in Resources */,
+				595A6B621E74A61E00777524 /* countries.json in Resources */,
 				595A6B511E74A39F00777524 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595A6B661E74B06C00777524 /* Country.swift in Sources */,
 				595A6B4E1E74A39F00777524 /* ViewController.swift in Sources */,
+				595A6B651E74B06C00777524 /* Countries.swift in Sources */,
 				595A6B4C1E74A39F00777524 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,11 +273,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUU6BYRNCF;
 				INFOPLIST_FILE = SimpleIndexedTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eloispy.SimpleIndexedTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -272,11 +287,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUU6BYRNCF;
 				INFOPLIST_FILE = SimpleIndexedTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eloispy.SimpleIndexedTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
